@@ -13,7 +13,7 @@ public class Main {
         main.myInterface.doIt("str");
 
         UkrainianPeople people = new UkrainianPeople();
-        people.get
+//        people.get
     }
 
 }
