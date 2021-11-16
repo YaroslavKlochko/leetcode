@@ -1,7 +1,7 @@
 package com.example;
 
-import com.company.algorithms.dataStructures.ListNode;
-import com.company.algorithms.dataStructures.TreeNode;
+import com.example.dataStructures.ListNode;
+import com.example.dataStructures.TreeNode;
 
 import java.util.Stack;
 
