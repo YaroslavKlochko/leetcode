@@ -17,11 +17,3 @@ public class PalindromeNumber {
         return x == parseInt(stringBuilder.toString());
     }
 }
-
-1990 - 168.24
-        
-15% - car
-5% - home 30
-
-
-1715
