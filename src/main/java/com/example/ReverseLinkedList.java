@@ -19,7 +19,7 @@ public class ReverseLinkedList {
 
     public static ListNode reverseList1(ListNode head) {
         ListNode prev = null;
-        while(head != null) {
+        while (head != null) {
             ListNode next = head.next;
             head.next = prev;
             prev = head;
@@ -27,7 +27,6 @@ public class ReverseLinkedList {
         }
         return prev;
     }
-
 
 
     //NULL - 1 - 2 - 3 - 4 - 5

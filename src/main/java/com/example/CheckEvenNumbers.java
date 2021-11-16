@@ -11,7 +11,7 @@ public class CheckEvenNumbers {
         return counter;
     }
 
-    public boolean evenChecker(int value){
+    public boolean evenChecker(int value) {
         char[] array = Integer.toString(value).toCharArray();
         return array.length % 2 == 0;
     }

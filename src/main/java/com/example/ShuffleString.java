@@ -15,7 +15,7 @@ package com.example;
 public class ShuffleString {
 
     public String restoreString(String s, int[] indices) {
-        char[] result= s.toCharArray();
+        char[] result = s.toCharArray();
         for (int i = 0; i < indices.length; i++) {
             result[indices[i]] = s.charAt(i);
         }
