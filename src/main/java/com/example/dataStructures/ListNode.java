@@ -1,4 +1,4 @@
-package com.example;
+package com.example.dataStructures;
 
 
 public class ListNode {

@@ -8,7 +8,7 @@ package com.example;
 // switch values
 // return pointer
 
-import java.util.List;
+import com.example.dataStructures.ListNode;
 
 // create starting point
 // make a loop
