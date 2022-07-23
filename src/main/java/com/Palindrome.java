@@ -1,5 +1,3 @@
-package com.example;
-
 public class Palindrome {
     public String findLongestPalindrome(String s) {
         if (s.equals("") || s.length() < 1) return "";
@@ -31,11 +29,11 @@ public class Palindrome {
 
 // give it back and keep in mind we are working with indices
 
-//check the middle position for the 1st element
-//check the middle position for the second element
-//find the maximum value between the 1st and the 2nd point
-// проверяем значение больше ли максимального элемента или нет, если нет, то записываем в 1st element
-// проверяем значение больше ли максимального элемента или нет, если нет, то записываем в 2nd element
+// check the middle position for the 1st element
+// check the middle position for the second element
+// find the maximum value between the 1st and the 2nd point
+// check if the value is greater than the maximum element or not, if not, then write to 1st element
+// check if the value is greater than the maximum element or not, if not, then write to the 2nd element
 
 // give the part of the string we are working with indices
 

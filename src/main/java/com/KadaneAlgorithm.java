@@ -1,11 +1,9 @@
-package com.example;
+// starting points
+//check for current subarray
+//check for max subarray
+//return result
 
 public class KadaneAlgorithm {
-
-    // starting points
-    //check for current subarray
-    //check for max subarray
-    //return result
 
     public int maxSubArraySum(int[] arr) {
         int maxSoFar = arr[0];

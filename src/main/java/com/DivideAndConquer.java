@@ -1,5 +1,3 @@
-package com.example;
-
 public class DivideAndConquer {
 
     public void mergeSort(int[] arr, int[] temp, int low, int high) {
@@ -35,7 +33,6 @@ public class DivideAndConquer {
             arr[k] = temp[i];
             i++;
             k++;
-
         }
     }
 }

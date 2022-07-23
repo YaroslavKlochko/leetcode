@@ -1,9 +1,6 @@
-package com.example;
-
 import com.example.dataStructures.ListNode;
 
 public class FloydCycleLoop {
-
 
     public void findCycleLoop(ListNode head) {
         ListNode fast = head;
@@ -16,7 +13,6 @@ public class FloydCycleLoop {
                 removeLoop(slow);
                 return;
             }
-
         }
     }
 

@@ -1,11 +1,3 @@
-package com.example;
-
-/**
- * Given a String, must return the longest palindromic substring in it.
- * <p>
- * Approach in this solution is expand around the center. Time complexity is  O(n^2);
- */
-
 public class PalindromicSubstring {
     public String longestPalindromic(String s) {
         if (s == null || s.length() < 1) return "";

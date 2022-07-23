@@ -1,5 +1,3 @@
-package com.example;
-
 import static java.lang.Integer.parseInt;
 
 public class PalindromeNumber {

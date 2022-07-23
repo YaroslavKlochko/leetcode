@@ -1,5 +1,3 @@
-package com.example;
-
 public class PalindromicExercise {
 
     public String findLongestPalindrome(String str) {

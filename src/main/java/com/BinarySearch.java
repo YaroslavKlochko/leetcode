@@ -1,9 +1,4 @@
-package com.example;
-
 public class BinarySearch {
-
-    public static void main(String[] args) {
-    }
 
     public int binarySearch(int[] nums, int target) {
         if (nums.length == 0) {

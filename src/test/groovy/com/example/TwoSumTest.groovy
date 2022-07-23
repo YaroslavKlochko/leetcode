@@ -1,5 +1,3 @@
-package com.example
-
 import spock.lang.Specification
 
 class TwoSumTest extends Specification {

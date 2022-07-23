@@ -1,5 +1,3 @@
-package com.example;
-
 public class LinearOrSequentialSearch {
 
     public static void main(String[] args) {

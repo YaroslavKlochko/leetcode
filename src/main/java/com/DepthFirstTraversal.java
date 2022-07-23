@@ -1,5 +1,3 @@
-package com.example;
-
 import com.example.dataStructures.ListNode;
 import com.example.dataStructures.TreeNode;
 
@@ -8,9 +6,6 @@ import java.util.Stack;
 public class DepthFirstTraversal {
 
     private static ListNode adjVertices;
-
-    public static void main(String[] args) {
-    }
 
     static void depthFirstTraversalRecursiveWay(TreeNode root) {
         if (root == null) {
