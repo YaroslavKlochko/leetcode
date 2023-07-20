@@ -1,3 +1,5 @@
+package java.com;
+
 import java.util.Arrays;
 
 public class CoinChange322 {

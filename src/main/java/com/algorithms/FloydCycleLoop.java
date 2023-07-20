@@ -1,4 +1,6 @@
-import com.company.algorithms.dataStructures.ListNode;
+package algorithms;
+
+import algorithms.dataStructures.ListNode;
 
 public class FloydCycleLoop {
 

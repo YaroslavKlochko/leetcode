@@ -1,3 +1,5 @@
+package algorithms.dataStructures;
+
 public class TreeNode {
 
     public int value;

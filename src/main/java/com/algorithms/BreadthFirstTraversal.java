@@ -1,12 +1,16 @@
-import com.company.algorithms.dataStructures.Node;
-import com.company.algorithms.dataStructures.TreeNode;
+package algorithms;
+
+import algorithms.dataStructures.TreeNode;
+import algorithms
+
 
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Set;
 
 //To find path from one node to another
-//To find shortest path in unweighted graph
+//To find the shortest path in unweighted graph
 // DO NOT use for huge amount of data 
 
 public class BreadthFirstTraversal {
@@ -29,7 +33,7 @@ public class BreadthFirstTraversal {
 
     //-------------------------------------------------------------------------------
 
-    public boolean bfs(Node start, Node end) {
+    public boolean bfs(ListNode start, ListNode end) {
         Set<Node> visited = new HashSet<>();
         Queue<Node> adjacent = new LinkedList<>();
         adjacent.add(start);

@@ -1,3 +1,5 @@
+package algorithms;
+
 public class BubbleSort {
 
     void isSwapped(int[] list) {
@@ -17,4 +19,3 @@ public class BubbleSort {
         }
     }
 }
-F

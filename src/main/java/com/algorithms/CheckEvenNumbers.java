@@ -1,3 +1,5 @@
+package algorithms;
+
 public class CheckEvenNumbers {
     public int findNumbers(int[] nums) {
         int counter = 0;

@@ -1,4 +1,4 @@
-import com.company.algorithms.dataStructures.ListNode;
+import algorithms.dataStructures.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

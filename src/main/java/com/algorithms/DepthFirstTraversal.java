@@ -1,5 +1,7 @@
-import com.company.algorithms.dataStructures.ListNode;
-import com.company.algorithms.dataStructures.TreeNode;
+package algorithms;
+
+import algorithms.dataStructures.ListNode;
+import algorithms.dataStructures.TreeNode;
 
 import java.util.Stack;
 

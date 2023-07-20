@@ -1,3 +1,5 @@
+package algorithms.dataStructures;
+
 public class ListNode {
     public int value;
     public ListNode next;
