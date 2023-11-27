@@ -1,5 +1,4 @@
 class Solution:
-
     def merge_with_sort(self, nums1, m, nums2, n):
         for j in range(n):
             nums1[m + j] = nums2[j]

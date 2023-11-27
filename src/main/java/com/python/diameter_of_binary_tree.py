@@ -1,5 +1,4 @@
 class Solution:
-
     def diameter_of_binary_tree(self, root):
 
         def recurse(node):

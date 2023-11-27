@@ -1,5 +1,4 @@
 class Solution:
-
     def remove_duplicates(self, nums):
         i = 0
         for n in nums:

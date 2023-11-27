@@ -1,5 +1,4 @@
 class Solution:
-
     def remove_element(self, nums: List[int], val: int) -> int:
         index = 0
         for i in range(len(nums)):
