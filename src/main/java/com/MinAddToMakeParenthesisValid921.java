@@ -1,4 +1,3 @@
-
 public class MinAddToMakeParenthesisValid921 {
     public int bracketMatch(String s) {
         if(s.isEmpty()) {
