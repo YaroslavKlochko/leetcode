@@ -1,5 +1,6 @@
+
 public class HammingDistance461 {
-    public int hammingDistance(int x, int y) {
+    public int hammingDistance1(int x, int y) {
         int result = 0;
         while (x > 0 || y > 0) {
             result += (x % 2) ^ (y % 2);

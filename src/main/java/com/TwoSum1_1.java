@@ -13,7 +13,24 @@ public class TwoSum {
         twoSum(arr, target);
     }
 
-    public static int[] twoSum(final int[] nums, final int target) {
+    public int[] twoSum(int[] nums, int target) {
+
+        Map<Integer, Integer> resultMap = new HashMap<>();
+
+        for(int i = 0; i < nums.length; i++) {
+            resultMap.put(nums[i], i);
+        }
+
+        for(int i = 0; i  < nums.length; i++) {
+            int neededValue = target - nums[i];
+            if(resultMap.containsKey(neededValue) && resultMap.get(neededValue) != i) {
+                return new int[]{i, resultMap.get(neededValue)};
+            }
+        }
+        return new int[]{};
+    }
+
+    public static int[] twoSum2(final int[] nums, final int target) {
         final Map<Integer, Integer> hashMap = new HashMap<>();
         int i = 0;
         while ((i < nums.length) && (hashMap.get(nums[i]) == null)) {
@@ -26,7 +43,7 @@ public class TwoSum {
         return new int[]{};
     }
 
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum3(int[] nums, int target) {
 
         Map<Integer, Integer> map = new HashMap<>();
         int arr[] = new int[2];

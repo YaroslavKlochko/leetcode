@@ -1,10 +1,6 @@
 import algorithms.dataStructures.TreeNode;
-import com.company.algorithms.dataStructures.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+
 
 public class BinaryTreeLevelOrderTraversal102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
