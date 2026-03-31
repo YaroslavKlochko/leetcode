@@ -2,14 +2,14 @@ from typing import Optional
 
 class Solution:
     def largest_smaller_bst_key(self, root: Node, num: int) -> Optional[Node]:
-        candidate = None
-        curr = root
+        result = None
+        current = root
 
-        while curr:
-            if curr.key < num:
-                candidate = curr
-                curr = curr.right
+        while current:
+            if current.key < num:
+                result = current
+                current = current.right
             else:
-                curr = curr.left
+                current = current.left
 
-        return candidate
+        return result
